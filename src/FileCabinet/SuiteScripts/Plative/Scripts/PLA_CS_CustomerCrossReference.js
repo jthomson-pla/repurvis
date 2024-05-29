@@ -93,7 +93,7 @@ define(['N/currentRecord', 'N/search'], (currentRecord, search) => {
          */
         applyCCF: () => {
             try {
-                console.log('Action', 'Apply CCF');
+                console.log('Action', 'Test Apply CCF');
                 let currentForm = currentRecord.get();
                 let customer = currentForm.getValue({ fieldId: 'entity' });
                 let items = [];
